@@ -88,7 +88,7 @@
     }
 
     .avatar-image {
-        margin: 20px 50px 30px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 10px 50px 15px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 300px;/*Temporary size*/
         height: 300px;/*Temporary size*/
     }
@@ -100,7 +100,7 @@
     }
 
     h1.home-section-title {
-        margin: 5px 47px 25px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         height: 170px;/*Temporary size*/
         font-size: 48px;/*Temporary size*/
     }
@@ -125,7 +125,7 @@
     }
 
     h2.home-subsection-description {
-        margin: 10px 47px 15px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 10px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .home-content-description {
@@ -140,7 +140,7 @@
     }
 
     .home-content-button {
-        margin: 25px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .resume-button {
