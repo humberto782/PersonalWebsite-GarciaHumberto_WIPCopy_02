@@ -8,24 +8,24 @@
         align-items: center;
         justify-content: space-between;
         position: relative;
-        height: 80px;
+        height: 90px;
     }
 
     .navbar-content-logo {
         display: block;
+        font-size: 30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .my-logo-home {
-        padding: 10px 10px 10px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 14px 10px 13px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         margin: 8px 20px 8px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        font-size: 30px;
     }
 
     .dropdown-toggle {
         display: block;
         align-items: start;
         justify-content: end;
-        padding: 10px 10px 10px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 15px 10px 15px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background: none;
         border: 1px solid blue; /*Temporary visibility of the flex display*/
@@ -84,18 +84,18 @@
     }
 
     .home-content-image {
-        margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .avatar-image {
-        margin: 0px 50px 0px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px 25px 0px 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 400px;/*Temporary size*/
         height: 400px;/*Temporary size*/
     }
 
     .home-title-wrapper {
         align-self: flex-start;
-        margin: 5px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 500px;/*Temporary size*/
     }
 
