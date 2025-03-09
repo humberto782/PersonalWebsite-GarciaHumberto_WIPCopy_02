@@ -1,0 +1,147 @@
+@media (max-width: 500px) {/*Mobile*/
+    .navbar-header {
+        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+    }
+
+    .navbar-content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .navbar-content-logo {
+        display: block;
+    }
+
+    .my-logo-home {
+        padding: 15px 10px 15px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 8px 20px 8px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .dropdown-toggle {
+        display: block;
+        align-items: start;
+        justify-content: end;
+        padding: 20px 10px 20px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background: none;
+        border: 1px solid blue; /*Temporary visibility of the flex display*/
+    }
+    .dropdown-toggle:hover {
+        cursor: pointer;
+    }
+
+    .hamburger-icon {
+        width: 50px;
+        height: 44.67px;
+    }
+
+    .dropdown-menu {
+        display: none;
+        padding: .75rem;
+        margin: 0px -5px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        position: absolute;
+        width: 500px;/*Temporary size/Maybe not necessary since overflow-x fixes the issue*/
+        right: 0;
+        top: calc(100% + .25rem);
+        opacity: 0;
+        background: #2e3c3f;
+        border: 5px solid yellow;/*Temporary visibility of the flex display*/
+    }
+    .dropdown-menu.open {
+        display: block;
+        opacity: 1;
+    }
+
+    .dropdown-menu li {
+        display: block;
+    }
+
+    .my-about-skills, .my-projects, .my-contact {
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .my-ld-button {
+        align-items: center;
+        text-align: center;
+        padding: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        font-size: 24px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .home-main-wrapper {
+        flex-direction: column;
+        align-items: center;
+        width: 500px;/*Temporary size*/
+        margin: 5px 0px 50px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        background-color: #3E3E3E;/*Temporary visibility of the flex display-placeholder green/actual bg-color #3E3E3E*/
+    }
+
+    .home-content-image {
+        margin: 5px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .avatar-image {
+        margin: 5px 50px 5px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 350px;/*Temporary size*/
+        height: 350px;/*Temporary size*/
+    }
+
+    .home-title-wrapper {
+        align-self: flex-start;
+        margin: 5px 0px 0px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 500px;/*Temporary size*/
+    }
+
+    h1.home-section-title {
+        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        height: 205px;/*Temporary size*/
+        font-size: 53px;/*Temporary size*/
+    }
+
+    .handwave-icon {
+        width: 48px;
+        height: 50.32px;
+    }
+
+    .rectangle-back-design {
+        margin: 0px 0px -85px -30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 425px;/*Temporary size*/
+        height: 100px;/*Temporary size*/
+    }
+
+    .rectangle-front-design {
+        margin: 0px 0px -100px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 425px;/*Temporary size*/
+        height: 100px;/*Temporary size*/
+    }
+
+    h2.home-subsection-description {
+        margin: 15px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .home-content-description {
+        font-size: 31px;/*Temporary size*/
+    }
+
+    .github-icon {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 89.88px;/*Temporary size*/
+        height: 84.69px;/*Temporary size*/
+    }
+
+    .home-content-button {
+        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+    }
+
+    .resume-button {
+        width: 287px;/*Temporary size*/
+        height: 80px;/*Temporary size*/
+        font-size: 25px;/*Temporary size*/
+    }
+}
