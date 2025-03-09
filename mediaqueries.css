@@ -25,7 +25,7 @@
         display: block;
         align-items: start;
         justify-content: end;
-        padding: 15px 10px 15px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 25px 12px 20px 12px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background: none;
         border: 1px solid blue; /*Temporary visibility of the flex display*/
@@ -35,8 +35,8 @@
     }
 
     .hamburger-icon {
-        width: 50px;
-        height: 44.67px;
+        width: 35px;
+        height: 30px;
     }
 
     .dropdown-menu {
@@ -84,13 +84,13 @@
     }
 
     .home-content-image {
-        margin: 0px px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .avatar-image {
-        margin: 0px 25px 0px 25px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 400px;/*Temporary size*/
-        height: 400px;/*Temporary size*/
+        margin: 20px 50px 30px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 300px;/*Temporary size*/
+        height: 300px;/*Temporary size*/
     }
 
     .home-title-wrapper {
@@ -100,7 +100,7 @@
     }
 
     h1.home-section-title {
-        margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 47px 25px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         height: 170px;/*Temporary size*/
         font-size: 48px;/*Temporary size*/
     }
@@ -125,7 +125,7 @@
     }
 
     h2.home-subsection-description {
-        margin: 10px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 10px 47px 15px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .home-content-description {
@@ -140,7 +140,7 @@
     }
 
     .home-content-button {
-        margin: 10px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 25px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .resume-button {
