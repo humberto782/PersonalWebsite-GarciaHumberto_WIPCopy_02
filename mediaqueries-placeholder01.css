@@ -8,7 +8,6 @@
         align-items: center;
         justify-content: space-between;
         position: relative;
-        height: 80px;
     }
 
     .navbar-content-logo {
@@ -16,16 +15,15 @@
     }
 
     .my-logo-home {
-        padding: 10px 10px 10px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 15px 10px 15px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         margin: 8px 20px 8px 20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        font-size: 30px;
     }
 
     .dropdown-toggle {
         display: block;
         align-items: start;
         justify-content: end;
-        padding: 10px 10px 10px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        padding: 20px 10px 20px 10px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         margin: 5px 5px 5px 5px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         background: none;
         border: 1px solid blue; /*Temporary visibility of the flex display*/
@@ -49,7 +47,7 @@
         top: calc(100% + .25rem);
         opacity: 0;
         background: #2e3c3f;
-        /* border: 5px solid yellow;Temporary visibility of the flex display */
+        border: 5px solid yellow;/*Temporary visibility of the flex display*/
     }
     .dropdown-menu.open {
         display: block;
@@ -84,13 +82,13 @@
     }
 
     .home-content-image {
-        margin: 0px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 5px 0px 0px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .avatar-image {
-        margin: 0px 50px 0px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        width: 400px;/*Temporary size*/
-        height: 400px;/*Temporary size*/
+        margin: 5px 50px 5px 50px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        width: 350px;/*Temporary size*/
+        height: 350px;/*Temporary size*/
     }
 
     .home-title-wrapper {
@@ -101,8 +99,8 @@
 
     h1.home-section-title {
         margin: 5px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
-        height: 170px;/*Temporary size*/
-        font-size: 48px;/*Temporary size*/
+        height: 205px;/*Temporary size*/
+        font-size: 53px;/*Temporary size*/
     }
 
     .handwave-icon {
@@ -111,43 +109,39 @@
     }
 
     .rectangle-back-design {
-        margin: 0px 0px -70px -20px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px 0px -85px -30px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 425px;/*Temporary size*/
-        height: 85px;/*Temporary size*/
-        border: 1px solid #000;
+        height: 100px;/*Temporary size*/
     }
 
     .rectangle-front-design {
-        margin: 0px 0px -85px 0px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 0px 0px -100px -1px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
         width: 425px;/*Temporary size*/
-        height: 85px;/*Temporary size*/
-        border: 2px solid #17A2B8;
+        height: 100px;/*Temporary size*/
     }
 
     h2.home-subsection-description {
-        margin: 10px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 15px 47px 0px 47px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .home-content-description {
-        font-size: 26px;/*Temporary size*/
+        font-size: 31px;/*Temporary size*/
     }
 
     .github-icon {
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 73.88px;/*Temporary size*/
-        height: 68.69px;/*Temporary size*/
+        width: 89.88px;/*Temporary size*/
+        height: 84.69px;/*Temporary size*/
     }
 
     .home-content-button {
-        margin: 10px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
+        margin: 15px 80px 10px 80px;/*Temporary size, change to rem to be dynamically responsive to mobile*/
     }
 
     .resume-button {
-        width: 240px;/*Temporary size*/
-        height: 75px;/*Temporary size*/
-        font-size: 22px;/*Temporary size*/
-        border: 1px solid #fff;
-        border-radius: 10px;/*Temporary size*/
+        width: 287px;/*Temporary size*/
+        height: 80px;/*Temporary size*/
+        font-size: 25px;/*Temporary size*/
     }
 }
